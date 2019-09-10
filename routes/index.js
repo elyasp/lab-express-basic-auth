@@ -7,4 +7,8 @@ router.get('/', (req, res, next) => {
   res.render('index', { title: 'Hello World!' });
 });
 
+router.get('/register', (req, res, next) => {
+  res.render('index', { title: 'Hello World!' });
+});
+
 module.exports = router;
